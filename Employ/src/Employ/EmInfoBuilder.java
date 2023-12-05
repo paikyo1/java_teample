@@ -1,6 +1,6 @@
 package Employ;
 
-public class EmInfoBuilder {
+public class EmInfoBuilder { //채용정보클래스의 멤버를 쉽게 갱신하기위해 만들어진 클래스
 	private EmInfo e;
 	public EmInfoBuilder(EmInfo e) {
 		this.e = e;
@@ -37,7 +37,7 @@ public class EmInfoBuilder {
 		e.setEndDate(endDate);
 		return this;
 	}
-	public EmInfo emInfo() {
+	public EmInfo emInfo() { //갱신한 EmInfo 객체를 반환
 		return e;
 	}
 }

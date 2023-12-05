@@ -1,19 +1,14 @@
 package Employ;
 
-public class EmInfo {
-    private String companyName;
-    private String Title;
-    private String Task; 
-    private String Requirements; 
-    private String startDate; 
-    private String endDate;
+public class EmInfo { //채용정보 클래스
+    private String companyName; //회사명
+    private String Title; //채용공고명
+    private String Task;  //담당업무
+    private String Requirements;  //지원자격
+    private String startDate;  //등록일
+    private String endDate; //마감일
 	
-	@Override
-	public String toString() {
-		return "EmInfo [companyName=" + companyName + ", Title=" + Title + ", Description=" + Task
-				+ ", Requirements=" + Requirements + "startDate= " + startDate
-				+ ", endDate=" + endDate + "]";
-	}
+
 	public String getCompanyName() {
 		return companyName;
 	}
